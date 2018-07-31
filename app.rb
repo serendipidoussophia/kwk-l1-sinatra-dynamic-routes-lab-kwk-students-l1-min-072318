@@ -10,6 +10,7 @@ class App < Sinatra::Base
     num1 = params[:num1].to_i
     (@num1* @num1).to_s)
   end
+  end
   get '/say/:number/:phrase' do
     final_string = ""
     (params[:number].to_i).times do
