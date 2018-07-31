@@ -9,6 +9,7 @@ class App < Sinatra::Base
   get '/square/:number' do
     num1 = params[:number]
     (num1.to_i**2).to_s)
+    end
   end
   # get '/say/:number/:phrase' do
   #   @number = params[:number].to_i
